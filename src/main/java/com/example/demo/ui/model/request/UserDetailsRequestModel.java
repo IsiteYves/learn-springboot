@@ -1,22 +1,25 @@
 package com.example.demo.ui.model.request;
 
 public class UserDetailsRequestModel {
-	private String firstNameString;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String password;
 
-	public String getFirstNameString() {
-		return firstNameString;
+	public String getFirstName() {
+		return firstName;
 	}
 
-	public void setFirstNameString(String firstNameString) {
-		this.firstNameString = firstNameString;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
 
-	public String getLastNameString() {
-		return lastNameString;
+	public String getLastName() {
+		return lastName;
 	}
 
-	public void setLastNameString(String lastNameString) {
-		this.lastNameString = lastNameString;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 
 	public String getEmail() {
@@ -27,15 +30,11 @@ public class UserDetailsRequestModel {
 		this.email = email;
 	}
 
-	public String getPassqwordString() {
-		return passqwordString;
+	public String getPassword() {
+		return password;
 	}
 
-	public void setPassqwordString(String passqwordString) {
-		this.passqwordString = passqwordString;
+	public void setPassword(String password) {
+		this.password = password;
 	}
-
-	private String lastNameString;
-	private String email;
-	private String passqwordString;
 }
